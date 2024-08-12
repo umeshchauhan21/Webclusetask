@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: my app Service
+metadata:
+  name: myapp
+spec:
+  selector:
+    app: myapp
+  ports:
+  - port: <Port>
+    targetPort: <Target Port>
